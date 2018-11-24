@@ -118,8 +118,8 @@ export default class Records extends Component {
       );
     }
     return (
-      <div>
-        <h2>个人财务收支账单</h2>
+      <div className="mt-3 ml-3 mr-3">
+        <h2 className="mb-3">个人财务收支账单</h2>
         <div className="row mb-3">
           <AmountBox text="Credit" type="success" amount={this.credits()}/>
           <AmountBox text="Debit" type="danger" amount={this.debits()}/>

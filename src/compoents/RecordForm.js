@@ -50,15 +50,15 @@ export default class RecordFrom extends Component {
   render() {
     return (
       <form className="form-inline mb-3" onSubmit={this.handleSubmit.bind(this)}>
-        <div className="form-group mr-1">
+        <div className="form-group mr-3">
           <input type="text" className="form-control" onChange={this.handleChange.bind(this)}
                  placeholder="Date" name="date" value={this.state.date}></input>
         </div>
-        <div className="form-group mr-1">
+        <div className="form-group mr-3">
           <input type="text" className="form-control" onChange={this.handleChange.bind(this)}
                  placeholder="Title" name="title" value={this.state.title}></input>
         </div>
-        <div className="form-group mr-1">
+        <div className="form-group mr-3">
           <input type="text" className="form-control" onChange={this.handleChange.bind(this)}
                  placeholder="Amount" name="amount" value={this.state.amount}></input>
         </div>
